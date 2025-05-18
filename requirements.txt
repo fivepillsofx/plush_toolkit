@@ -1,0 +1,6 @@
+streamlit
+nltk
+textstat
+python-docx
+striprtf
+reportlab
