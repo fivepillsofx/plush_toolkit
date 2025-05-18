@@ -49,7 +49,7 @@ def generate_last_names(rarity, count):
 
 # ── Main App ────────────────────────────────────────────────
 def main():
-    st.set_page_config(page_title="🧠 Plush Toolkit", layout="wide")
+    st.set_page_config(page_title="Plush Toolkit", layout="wide")
 
     tools = [
         "Home",
@@ -80,17 +80,17 @@ def main():
         # If you have a logo file in your repo, uncomment next line:
         # c.image("plush-logo.png", width=200)
 
-        c.markdown("## 🧠 Plush: Your Storytelling Sidekick")
+        c.markdown("## Plush: Your Storytelling Sidekick")
         c.markdown("> *Soft on the surface, sharp on the scene.*")
 
         c.markdown("**What you can do with Plush:**")
         c.markdown("""
-        - 🧼 **Clean Text** — Strip out noise and normalize quotes  
-        - 🔍 **Analyze Text** — Readability, passive-voice, long-sentence alerts  
-        - 🗣 **Extract Dialogue** — Pull every line of spoken text  
-        - 💣 **Cliché Buster** — Hunt down tired clichés  
-        - 🎲 **Name Generator** — Instant first & last names (10 by default!)  
-        - 📦 **Full Report** — All of the above in one handy download  
+         🧼  **Clean Text** — Strip out noise and normalize quotes  
+         🔍  **Analyze Text** — Readability, passive-voice, long-sentence alerts  
+         🗣  **Extract Dialogue** — Pull every line of spoken text  
+         💣  **Cliché Buster** — Hunt down tired clichés  
+         🎲  **Name Generator** — Instant first & last names (10 by default!)  
+         📦  **Full Report** — All of the above in one handy download  
         """)
 
         c.markdown("**Quick Start:**")
