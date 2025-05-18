@@ -14,7 +14,7 @@ from reportlab.pdfgen import canvas
 from plush_utils import (
     clean_text, analyze_text, extract_dialogue, dialogue_by_character,
     find_cliches, export_full_report, generate_names,
-    load_docx, generate_docx, generate_pdf, STYLE_PRESETS
+    load_docx, generate_docx, generate_pdf, STYLE_PRESETS, templates
 )
 
 # Ensure NLTK data
